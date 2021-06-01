@@ -1,1 +1,17 @@
-body, html { padding: 0; margin: 0;}
+/** CSS global **/
+body, html { margin: 0; padding: 1em; font-family: Raleway;}
+.blue { background-color: #0065fc;}
+.light-blue { background-color: #deebff;}
+.grey { background-color: #f2f2f2;}
+
+
+/** HEADER & NAVIGATION **/
+#header-mobile { display: none;}
+header { width: 100%; display: flex; justify-content: space-between;}
+header a { color: #000000; text-decoration: none;}
+header ul { display: flex; list-style: none; padding: 0; margin: 0; width: 100%;    justify-content: space-between;}
+header li a { padding: 20px 15px;}
+nav { display: flex;  align-items: center; width: 30%;}
+
+.active { border-top: 2px solid #0065fc; color: #0065fc;}
+.sign-in { color: #0065fc; font-weight: 700;}
