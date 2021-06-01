@@ -214,4 +214,7 @@ footer a { color: #000000; text-decoration: none;}
     #accomodations-area { flex-direction: column;}
     #accomodations, #trending-container { width: 100%; margin-bottom: 50px;}
 
+    /** COLONNES POPULAIRES **/
+    #trending-list .accomodation-card img  { width: 25%;}
+
 }
