@@ -127,12 +127,13 @@ input[type=submit] { color: white; border: #0065fc; border-radius: 0px 10px 10px
     flex-direction: row;
 }
 
-#trending-list .accomodation-card img { width: 30%; object-fit: cover; border-radius: 20px 0px 0px 20px}
+#trending-list .accomodation-card img { width: 40%; object-fit: cover; border-radius: 20px 0px 0px 20px}
 #trending-list .card-informations { 
     padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 60%;
 }
 
 #trending-list .card-title { display: flex; flex-direction: column; justify-content: flex-start;}
@@ -190,8 +191,6 @@ footer a { color: #000000; text-decoration: none;}
     #accomodations { background-color: #ffffff;}
     #accomodations-list { justify-content: center;}
     #accomodations-list a, #accomodations-list .accomodation-card { width: 100%;}
-
-
 
 
     /** FOOTER **/
