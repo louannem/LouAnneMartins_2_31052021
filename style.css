@@ -43,6 +43,11 @@ footer a { color: #000000; text-decoration: none;}
     #header-first-row { padding: 1em;}
     #main-links a { padding: 20px 15px; width: 50%; text-align: center; border-bottom: 3px solid #f2f2f2; }
     .active { border-bottom: 3px solid #0065fc!important; color: #0065fc; border-top: 0px}
+
+
+    /** FOOTER **/
+    footer { flex-direction: column; align-items: flex-start;}
+    footer div { margin: 0px 0px 20px 0px;}
 }
 
 
@@ -50,4 +55,7 @@ footer a { color: #000000; text-decoration: none;}
 /** TABLET VERSION **/
 @media screen and (max-width: 850px) {
     nav { width: 50%;}
+
+
+    /** FOOTER **/
 }
