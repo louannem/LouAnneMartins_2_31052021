@@ -1,5 +1,6 @@
 /** CSS global **/
 body, html { margin: 0;  font-family: Raleway;}
+header, main { padding: 1.5em;}
 .blue { background-color: #0065fc;}
 .light-blue { background-color: #deebff;}
 .grey { background-color: #f2f2f2;}
@@ -7,7 +8,7 @@ body, html { margin: 0;  font-family: Raleway;}
 
 /** HEADER & NAVIGATION **/
 #header-mobile { display: none;}
-header {  display: flex; justify-content: space-between; padding: 1em;}
+header {  display: flex; justify-content: space-between;}
 header a { color: #000000; text-decoration: none;}
 header ul { display: flex; list-style: none; padding: 0; margin: 0; width: 100%;    justify-content: space-between;}
 header li a { padding: 20px 15px;}
@@ -17,17 +18,32 @@ nav { display: flex;  align-items: center; width: 30%;}
 .sign-in { color: #0065fc; font-weight: 700;}
 
 
+/** SEARCH & FILTERS **/
+#search-filters, #search-bar, #filters { margin: 25px 0px}
+
+#search-filters p { color: grey; font-weight: 600;}
+
+#search-bar { width: 350px;display: flex;}
+.leading-icon { padding: 10px 12px; box-sizing: border-box; border-radius: 10px 0px 0px 10px }
+input[type=search] { width: 60%; border: #f2f2f2 1px solid; box-sizing: border-box ; padding: 0px 15px;}
+input[type=search]:focus { border: #f2f2f2 1px solid;  }
+input[type=submit] { color: white; border: #0065fc; border-radius: 0px 10px 10px 0px; padding: 0px 15px; cursor: pointer;}
+#submit-mobile { display: none;}
+
+
+
 /** FOOTER **/
 footer { 
     display: flex;
     align-items: center;
     background-color: #f2f2f2;
-    padding: 3em 1em;
+    padding: 3em 1.5em;
     line-height: 1.5em;
 }
 footer div { margin-right: 20%;}
 footer ul { list-style: none; padding: 0; margin: 0}
 footer a { color: #000000; text-decoration: none;}
+
 
 
 
