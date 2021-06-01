@@ -30,6 +30,35 @@ input[type=search]:focus { border: #f2f2f2 1px solid;  }
 input[type=submit] { color: white; border: #0065fc; border-radius: 0px 10px 10px 0px; padding: 0px 15px; cursor: pointer;}
 #submit-mobile { display: none;}
 
+#filters  { display: flex; align-items: center; font-weight: 700;}
+#filters span { margin-right: 20px}
+#filter-list { display: flex;}
+#filter-list div { 
+    display: flex;
+    align-items: center;
+    padding: 0px 10px 0px 0px; 
+    box-sizing: border-box; 
+    border-radius: 100px; 
+    border : 2px #f2f2f2 solid;
+    border-left: none;
+    margin: 0px 10px;
+}
+
+#filter-list div:hover { background-color: #f2f2f2; cursor: pointer;}
+
+#filters i { 
+    padding: 10px 10px; 
+    border-radius: 50%; 
+    color: #0065fc;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+
 
 
 /** FOOTER **/
