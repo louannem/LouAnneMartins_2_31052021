@@ -102,6 +102,22 @@ footer a { color: #000000; text-decoration: none;}
     .active { border-bottom: 3px solid #0065fc!important; color: #0065fc; border-top: 0px}
 
 
+    /** SEARCH & FILTERS  **/
+    section { padding: 0em 1em; }
+    #submit-desktop { display: none;}
+    #submit-mobile { display: inline;}
+    button[type=submit] { color: white; border: #0065fc; border-radius: 10px; padding: 0px 15px;}
+    #search-bar { width: auto; justify-content: center;}
+
+    #filters  { flex-direction: column; align-items: flex-start;}
+
+    #filter-list { flex-direction: row; flex-wrap: wrap;}
+    #filter-list div { margin: 10px 10px 0px 0px;}
+
+    #results-info { align-items: flex-start;}
+    #results-info i { font-size: 10px; height: 20px; width: 25px;}
+    
+
     /** FOOTER **/
     footer { flex-direction: column; align-items: flex-start;}
     footer div { margin: 0px 0px 20px 0px;}
@@ -113,6 +129,4 @@ footer a { color: #000000; text-decoration: none;}
 @media screen and (max-width: 850px) {
     nav { width: 50%;}
 
-
-    /** FOOTER **/
 }
