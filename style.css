@@ -174,4 +174,9 @@ footer a { color: #000000; text-decoration: none;}
     #filter-list { flex-wrap: wrap;}
     #filter-list div { margin-bottom: 10px;}
 
+
+    /** HERBEGEMENTS **/
+    #accomodations-area { flex-direction: column;}
+    #accomodations, #trending-container { width: 100%; margin-bottom: 50px;}
+
 }
