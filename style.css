@@ -31,3 +31,10 @@ nav { display: flex;  align-items: center; width: 30%;}
     #main-links a { padding: 20px 15px; width: 50%; text-align: center; border-bottom: 3px solid #f2f2f2; }
     .active { border-bottom: 3px solid #0065fc!important; color: #0065fc; border-top: 0px}
 }
+
+
+
+/** TABLET VERSION **/
+@media screen and (max-width: 850px) {
+    nav { width: 50%;}
+}
