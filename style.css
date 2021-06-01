@@ -1,5 +1,5 @@
 /** CSS global **/
-body, html { margin: 0; padding: 1em; font-family: Raleway;}
+body, html { margin: 0;  font-family: Raleway;}
 .blue { background-color: #0065fc;}
 .light-blue { background-color: #deebff;}
 .grey { background-color: #f2f2f2;}
@@ -7,7 +7,7 @@ body, html { margin: 0; padding: 1em; font-family: Raleway;}
 
 /** HEADER & NAVIGATION **/
 #header-mobile { display: none;}
-header { width: 100%; display: flex; justify-content: space-between;}
+header {  display: flex; justify-content: space-between; padding: 1em;}
 header a { color: #000000; text-decoration: none;}
 header ul { display: flex; list-style: none; padding: 0; margin: 0; width: 100%;    justify-content: space-between;}
 header li a { padding: 20px 15px;}
@@ -15,6 +15,19 @@ nav { display: flex;  align-items: center; width: 30%;}
 
 .active { border-top: 2px solid #0065fc; color: #0065fc;}
 .sign-in { color: #0065fc; font-weight: 700;}
+
+
+/** FOOTER **/
+footer { 
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 3em 1em;
+    line-height: 1.5em;
+}
+footer div { margin-right: 20%;}
+footer ul { list-style: none; padding: 0; margin: 0}
+footer a { color: #000000; text-decoration: none;}
 
 
 
