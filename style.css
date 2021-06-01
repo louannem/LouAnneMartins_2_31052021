@@ -94,7 +94,7 @@ input[type=submit] { color: white; border: #0065fc; border-radius: 0px 10px 10px
  }
 #trending-content { display: flex; align-items: center; justify-content: space-between;}
 
-#accomodations a { color: #000000; text-decoration: none;}
+#accomodations a, #trending-list a { color: #000000; text-decoration: none;}
 #accomodations-list { display: flex; justify-content: space-between; flex-wrap: wrap;}
 #accomodations-list .accomodation-card { 
     display: flex; 
@@ -189,7 +189,7 @@ footer a { color: #000000; text-decoration: none;}
     #accomodations, #trending-container { width: 100%; border-radius: 0;}    
     #accomodations { background-color: #ffffff;}
     #accomodations-list { justify-content: center;}
-    #accomodations-list a, .accomodation-card { width: 100%;}
+    #accomodations-list a, #accomodations-list .accomodation-card { width: 100%;}
 
 
 
@@ -202,7 +202,7 @@ footer a { color: #000000; text-decoration: none;}
 
 
 /** TABLET VERSION **/
-@media screen and (max-width: 850px) {
+@media screen and (min-width: 600px) and (max-width: 850px) {
     nav { width: 50%;}
 
     /** SEARCH & FILTERS  **/
