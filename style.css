@@ -120,7 +120,7 @@ footer a { color: #000000; text-decoration: none;}
 
 /** MOBILE VERSION **/
 @media screen and (max-width: 600px) {
-    body, html { padding: 0;}
+    body, html, main, section { padding: 0;}
 
     /** HEADER & NAVIGATION **/
     #desktop-header { display: none;}
@@ -132,8 +132,8 @@ footer a { color: #000000; text-decoration: none;}
     .active { border-bottom: 3px solid #0065fc!important; color: #0065fc; border-top: 0px}
 
 
-    /** SEARCH & FILTERS  **/
-    section { padding: 0em 1em; }
+    /** RECHERCHE & FILTRES  **/
+    #search-area { padding: 0em 1em; }
     #submit-desktop { display: none;}
     #submit-mobile { display: inline;}
     button[type=submit] { color: white; border: #0065fc; border-radius: 10px; padding: 0px 15px;}
@@ -146,6 +146,16 @@ footer a { color: #000000; text-decoration: none;}
 
     #results-info { align-items: flex-start;}
     #results-info i { font-size: 10px; height: 20px; width: 25px;}
+
+
+    /** HERBEGEMENTS **/
+    #accomodations-area { flex-direction: column-reverse;}
+    #accomodations, #trending-container { width: 100%; border-radius: 0;}    
+    #accomodations { background-color: #ffffff;}
+    #accomodations-list { justify-content: center;}
+    #accomodations-list a, .accomodation-card { width: 100%;}
+
+
 
 
     /** FOOTER **/
