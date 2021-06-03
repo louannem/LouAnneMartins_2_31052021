@@ -145,7 +145,7 @@ input[type=submit] { color: white; border: #0065fc; border-radius: 0px 10px 10px
 #activities-grid { 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 60px);
+    grid-template-rows: repeat(5, 70px);
     grid-gap: 2em;
     justify-content: center;
 }
@@ -163,7 +163,7 @@ input[type=submit] { color: white; border: #0065fc; border-radius: 0px 10px 10px
     margin: 0px; 
     padding: 5px 20px;
     box-sizing: border-box;
-    height: 45px; 
+    height: 50px; 
     width: 100%;
     position: absolute; 
     bottom: 0; 
@@ -276,5 +276,18 @@ footer a { color: #000000; text-decoration: none;}
 
     /** COLONNES POPULAIRES **/
     #trending-list .accomodation-card img  { width: 25%;}
+
+
+    /** ACTIVITES **/
+    #activities-grid { 
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(12, 70px);
+    grid-gap: 1em;
+    }
+
+    .card-1 { grid-column: 1/2; grid-row: 1/6;}
+    .card-4 { grid-column: -2; grid-row: 6/11;}
+    .card-5 { grid-column: 1/2; grid-row: 6/9;}
+    .card-6 { grid-column: 1/2; grid-row: 9/11;}
 
 }
