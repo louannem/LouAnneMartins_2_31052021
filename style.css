@@ -4,6 +4,7 @@ header, main { padding: 1.5em;}
 .blue { background-color: #0065fc;}
 .light-blue { background-color: #deebff;}
 .grey { background-color: #f2f2f2;}
+#accomodations a, #trending-list a, #activities-grid a { color: #000000; text-decoration: none;}
 
 
 /** HEADER & NAVIGATION **/
@@ -94,7 +95,6 @@ input[type=submit] { color: white; border: #0065fc; border-radius: 0px 10px 10px
  }
 #trending-content { display: flex; align-items: center; justify-content: space-between;}
 
-#accomodations a, #trending-list a { color: #000000; text-decoration: none;}
 #accomodations-list { display: flex; justify-content: space-between; flex-wrap: wrap;}
 #accomodations-list .accomodation-card { 
     display: flex; 
