@@ -226,10 +226,31 @@ footer a { color: #000000; text-decoration: none;}
 
     /** HERBEGEMENTS **/
     #accomodations-area { flex-direction: column-reverse;}
-    #accomodations, #trending-container { width: 100%; border-radius: 0;}    
-    #accomodations { background-color: #ffffff;}
-    #accomodations-list { justify-content: center;}
-    #accomodations-list a, #accomodations-list .accomodation-card { width: 100%;}
+    #accomodations, #trending-container { width: 100%; border-radius: 0; padding: 0 1em;}    
+    #accomodations { background-color: #ffffff; }
+    #accomodations-list { justify-content: center; margin-bottom: 20px;}
+    #accomodations-list a, #accomodations-list .accomodation-card { width: 100%; height: 200PX; margin-bottom: 1em;}
+    #accomodations-list .accomodation-card img { height: 100px;}
+
+
+
+    /** ACTIVITES **/
+    #activities-area { padding: 0em 1em; }
+    #activities-grid { 
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(6, 200px);
+    grid-gap: 0;
+    row-gap: 1em;
+    }
+
+    .card-1, .card-2, .card-3, .card-4, .card-5, .card-6 { grid-column: 1/1}
+    .card-1 { grid-row : 1/2}
+    .card-2 { grid-row: 2/3;}
+    .card-3 { grid-row: 3/4;}
+    .card-4 { grid-row: 4/5;}
+    .card-5 { grid-row: 5/6;}
+    .card-6 { grid-row: 6/6;}
+
 
 
     /** FOOTER **/
