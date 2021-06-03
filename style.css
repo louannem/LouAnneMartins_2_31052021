@@ -294,7 +294,7 @@ footer a { color: #000000; text-decoration: none;}
     #accomodations-list { 
         grid-template-columns: 45% 45%;
         grid-template-rows: repeat(3, 200px);
-        justify-content: center;
+        justify-content: space-evenly;
     }
     #accomodations-list .accomodation-card img { height: 100px;}
 
