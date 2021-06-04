@@ -213,7 +213,7 @@ footer a { color: #000000; text-decoration: none;}
 
     /** HEADER & NAVIGATION **/
     #desktop-header { display: none;}
-    #header-mobile { display: inline;}
+    #header-mobile { display: inline; box-sizing: border-box;}
 
     header div { display: flex; justify-content: space-between; align-items: center;}
     #header-first-row { padding: 1em;}
@@ -278,7 +278,7 @@ footer a { color: #000000; text-decoration: none;}
 
 
 /** TABLET VERSION **/
-@media screen and (min-width: 600px) and (max-width: 850px) {
+@media screen and (min-width: 600px) and (max-width: 1024px) {
     nav { width: 50%;}
 
     /** SEARCH & FILTERS  **/
