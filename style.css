@@ -1,6 +1,6 @@
 /** CSS global **/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
-body, html { margin: 0;  font-family: Raleway;}
+body, html { margin: 0;  font-family: Raleway; scroll-behavior: smooth;}
 header, main { padding: 1.5em;}
 .blue { background-color: #0065fc;}
 .light-blue { background-color: #deebff;}
