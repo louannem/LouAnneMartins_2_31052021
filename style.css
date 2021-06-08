@@ -278,7 +278,7 @@ footer a { color: #000000; text-decoration: none;}
 
 
 /** TABLET VERSION **/
-@media screen and (min-width: 600px) and (max-width: 1024px) {
+@media screen and (min-width: 600px) and (max-width: 1250px) {
     nav { width: 50%;}
 
     /** SEARCH & FILTERS  **/
