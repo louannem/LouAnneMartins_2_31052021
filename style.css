@@ -100,9 +100,9 @@ input[type=submit] { color: white; border: #0065fc; border-radius: 0px 10px 10px
 #accomodations-list { 
     width: 100%;
     display: grid; 
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,32%);
     grid-template-rows: repeat(2, 250px);
-    grid-gap: 1.5em;
+    grid-gap: 1.5vw;
     margin-bottom: 30px;
 }
 #accomodations-list .accomodation-card, #accomodations-list .accomodation-card a { 
@@ -279,7 +279,7 @@ footer a { color: #000000; text-decoration: none;}
 
 
 /** TABLET VERSION **/
-@media screen and (min-width: 600px) and (max-width: 1250px) {
+@media screen and (min-width: 600px) and (max-width: 1024px) {
     nav { width: 50%;}
 
     /** SEARCH & FILTERS  **/
@@ -293,9 +293,10 @@ footer a { color: #000000; text-decoration: none;}
     #accomodations, #trending-container { width: 100%; margin-bottom: 50px;}
 
     #accomodations-list { 
-        grid-template-columns: 45% 45%;
+        grid-template-columns: 48% 48%;
         grid-template-rows: repeat(3, 200px);
         justify-content: space-evenly;
+        grid-gap: 1vw;
     }
     #accomodations-list .accomodation-card img { height: 100px;}
 
