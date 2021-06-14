@@ -212,10 +212,19 @@ footer a { color: #000000; text-decoration: none;}
 
 /** MOBILE VERSION **/
 @media screen and (max-width: 600px) {
-    body, html, main, section { padding: 0;}
+    body, html, header, main, section { padding: 0;}
 
     /** HEADER & NAVIGATION **/
-    header  { display: flex; flex-wrap: wrap;}
+    header { height: auto}
+    header img { position: absolute; top: 15px; left: 1em}
+    nav { width: 100%; flex-wrap: wrap; padding-top: 30px}
+    nav .sign-in { display: inline-block; order: 1; position: absolute; top: 30px; right: 1em}
+    nav ul { width: 100%; margin-top: 40px}
+    nav ul li:nth-child(2) { border-bottom: #f2f2f2 solid 3px;}
+    nav ul li{ margin:0; width: 50%;}
+    nav ul a  { display: inline-block; width: 100%; padding: 1em 0px; text-align: center;}
+
+    
     .active { border-bottom: 3px solid #0065fc!important; color: #0065fc; border-top: 0px}
 
 
